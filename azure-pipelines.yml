@@ -36,7 +36,7 @@ steps:
 
 - task: AzureWebApp@1
   inputs:
-    azureSubscription: 'Free Trial'
+    azureSubscription: 'Free Trial (9d8591fa-bf4b-478f-a1da-71d8e2f1ff53)'
     appType: 'webAppLinux'
     appName: 'flaskAzureTest'
     package: '$(Build.ArtifactStagingDirectory)/*.zip'
